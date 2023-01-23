@@ -11,3 +11,7 @@ def insertion_sort(list):
 
     return list
 
+def main():
+    list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87] # My Array values
+    insertion_sort(list)
+    print(list) # printing the Insertion Sort
