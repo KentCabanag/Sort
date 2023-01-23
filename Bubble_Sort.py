@@ -10,3 +10,11 @@ def bubble_sort(list):
                 list[j+1] = tmp
 
     return list
+
+def main():
+    list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87] # My Array values
+    bubble_sort(list)
+    print(list) # printing the selection sort
+
+#calling the main
+main()
