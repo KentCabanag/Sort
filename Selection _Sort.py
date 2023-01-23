@@ -14,3 +14,10 @@ def selection_sort(list):
             list[min] = temp
 
     return list
+def main():
+    list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87]
+    selection_sort(list)
+    print(list)
+
+#calling the main
+main()
