@@ -31,4 +31,4 @@ def merge(left, right):
     return output
 
 def main():
-    
+    unsorted = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87] # My Array values
