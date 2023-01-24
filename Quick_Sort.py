@@ -21,3 +21,7 @@ def quick_sort(list, low, high):
     
 def main():
     list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87]
+    quick_sort(list, 0, len(list) - 1)
+    print(list)
+
+main()
