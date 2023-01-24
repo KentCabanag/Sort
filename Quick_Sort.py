@@ -12,3 +12,10 @@ def partition(list, low, high):
     list[i], list[high] = list[high] ,list[i]
 
     return i
+    
+def quick_sort(list, low, high):
+    if low < high:
+        partition_index = partition(list, low, high)
+        quick_sort(list, low, partition_index - 1)
+        quick_sort(list, partition_index + 1, high)
+    
