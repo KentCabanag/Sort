@@ -20,8 +20,11 @@ def quick_sort(list, low, high):
         quick_sort(list, partition_index + 1, high)
     
 def main():
-    list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87]
+    print("Array values: [93, 40, 91, 62, 56, 38, 46, 64, 78, 87]")
+    print("\nQuick Sort")
+    list = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87] # My Array values
     quick_sort(list, 0, len(list) - 1)
-    print(list)
+    print(list) # printing Quick Sort
 
+#calling the main
 main()

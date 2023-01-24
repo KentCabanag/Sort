@@ -37,4 +37,5 @@ def main():
     sorted = merge_sort(unsorted)
     print(sorted)# printing the Merge Sort
 
+#calling the main
 main()

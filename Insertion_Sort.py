@@ -18,4 +18,5 @@ def main():
     insertion_sort(list)
     print(list) # printing the Insertion Sort
 
+#calling the main
 main()
