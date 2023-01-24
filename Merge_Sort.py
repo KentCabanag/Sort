@@ -30,3 +30,5 @@ def merge(left, right):
 
     return output
 
+def main():
+    
