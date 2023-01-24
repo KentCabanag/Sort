@@ -31,8 +31,10 @@ def merge(left, right):
     return output
 
 def main():
+    print("Array values: [93, 40, 91, 62, 56, 38, 46, 64, 78, 87]")
+    print("\nMerge Sort")
     unsorted = [93, 40, 91, 62, 56, 38, 46, 64, 78, 87] # My Array values
     sorted = merge_sort(unsorted)
-    print(sorted)
+    print(sorted)# printing the Merge Sort
 
 main()
